@@ -223,6 +223,21 @@ body{
 }
 
 @media only screen and (max-width:600px) {
+
+    .third_pg .scroll_images{
+        display: none;
+    }
+
+    .third_pg .newpg_content{
+        font-size: 0.5rem;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    .empty{
+        height: 100vh;
+    }
+
     .homepage_content h1{
         font-size: 4rem;
     }
